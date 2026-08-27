@@ -13,15 +13,15 @@ body {
 /* Hero Section */
 .banner {
   width: 100%;
-  height: 400px; /* আপনার প্রয়োজন অনুযায়ী হাইট পরিবর্তন করতে পারেন */
-  background-image: url('img/banner.jpg'); /* এখানে আপনার ইমেজের লিংক বা পাথ দিন */
-  background-size: cover; /* ইমেজ পুরো ব্যানার জুড়ে ফিট হবে */
-  background-position: center; /* ইমেজ মাঝামাঝি থাকবে */
+  height: 400px; 
+  background-image: url('img/banner.jpg'); 
+  background-size: cover; 
+  background-position: center; 
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center; /* কন্টেন্ট নিখুঁতভাবে লম্বালম্বি মাঝে রাখবে */
+  justify-content: center;
   align-items: center;
-  padding-left:0;/* লেখা বাম দিক থেকে সরানোর জন্য */
+  padding-left:0;
 }
 
 .banner-content {
@@ -52,7 +52,7 @@ body {
 }
 
 .banner-content h1 span {
-  color: #fe6905; /* 20% off লেখাটির রং পরিবর্তন করতে */
+  color: #fe6905; 
 }
 
 
@@ -68,7 +68,7 @@ button {
 
 
   display: flex;
-  justify-content: center; /* কন্টেন্ট নিখুঁতভাবে লম্বালম্বি মাঝে রাখবে */
+  justify-content: center;
   align-items: center;
   transition: 2s ;
   
@@ -250,7 +250,7 @@ button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; /* লেখাগুলো একদম মাঝখানে আনবে */
+    text-align: center;
   }
 
   /* Banner Text Styling for Clarity */
@@ -273,7 +273,7 @@ button:hover{
 
   /* Product Grid: Shows 1 Card per row (Serial by Serial) */
   .product-grid {
-    grid-template-columns: 1fr; /* ১টি করে বড় কার্ড দেখাবে */
+    grid-template-columns: 1fr; 
     gap: 25px;
   }
 
@@ -281,16 +281,16 @@ button:hover{
   .product-card {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto; /* কার্ড মাঝখানে থাকবে */
+    margin: 0 auto; 
     padding: 20px;
   }
 
   .img-box {
-    height: 250px; /* ছবি বড় ও স্পষ্ট দেখাবে */
+    height: 250px; 
   }
 
   .section-title {
-    text-align: center; /* টাইটেল সেন্টার করা */
+    text-align: center; 
     margin: 30px 0 15px 0;
   }
 
